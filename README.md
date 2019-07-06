@@ -178,14 +178,14 @@ Buatlah modul dengan nama stackImplementation, yang berisi fungsi-fungsi untuk i
 1. reverseWord (kata) :
 Gunakan fungsi-fungsi yang terdapat pada modul stack untuk membalik suatu kata. Output dari fungsi reverseWord(kata) ini adalah kata yang sudah disusun secara terbalik, seperti berikut
 
-      stack.reverseWord('kita')
-      'atik'
+            stack.reverseWord('kita')
+            'atik'
       
 2. decToBin(num) :
 Gunakan fungsi-fungsi yang terdapat pada modul stack untuk mengkonversi suatu bilangan decimal menjadi bilangan biner, seperti contoh berikut :
 
-      stack.decTobin(12)
-      '1100'
+            stack.decTobin(12)
+            '1100'
       
 3. evaluatePost(str):
 Gunakan fungsi-fungsi yang terdapat pada modul stack untuk mengevaluasi ekspressi matematika postfix, dengan return value berupa hasil operasi matematika, dengan ketentuan sebagai berikut :
@@ -197,24 +197,24 @@ Gunakan fungsi-fungsi yang terdapat pada modul stack untuk mengevaluasi ekspress
             iii. Jika terdapat operasi pembagian dengan nol, seperti 9 0 /, yang berarti 9:0
 Berikut adalah contoh penggunaan fungsi evaluatePost(str):
 
-      a='6 0 81 *'
-      evaluatePost(a)
+            a='6 0 81 *'
+            evaluatePost(a)
       
 'Error: Terlalu banyak operand'
 
-      a='8 7 + 0 /'
-      evaluatePost(a)
+            a='8 7 + 0 /'
+            evaluatePost(a)
       
 'Error: pembagian dengan nol'
 
 
-      a='21 2 + */'
-      evaluatePost(a)
+            a='21 2 + */'
+            evaluatePost(a)
       
 'Error: operand terlalu sedikit'
 
-      a='610 11 1 + - 5 *'
-      evaluatePost(a)
+            a='610 11 1 + - 5 *'
+            evaluatePost(a)
       
 -10.0
 
