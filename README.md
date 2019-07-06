@@ -225,16 +225,16 @@ Gunakan fungsi-fungsi yang terdapat pada modul stack untuk pengecekan kurung pad
       o Kurung buka dan kurung tutup tidaklah cocok
 Contoh penggunaan fungsi dan output yang dihasilkan, dapat dilihat pada contoh 
 
-      parenthesesCheck('{(3+5)*(9-2)}')
+            parenthesesCheck('{(3+5)*(9-2)}')
 (True, 'tidak ada eror')
 
-      parenthesesCheck('(21/(56+2)')
+            parenthesesCheck('(21/(56+2)')
 (True, 'jumlah kurung buka lebih banyak')
 
-      parenthesesCheck('(4-5)/12+7)')
+            parenthesesCheck('(4-5)/12+7)')
 (True, 'jumlah kurung tutup lebih banyak')
 
-      parenthesesCheck('67*(5+2)/(12-6)')
+            parenthesesCheck('67*(5+2)/(12-6)')
 (True, 'kurung buka dan kurung tutup tidak cocok')
 
 
