@@ -199,24 +199,20 @@ Berikut adalah contoh penggunaan fungsi evaluatePost(str):
 
             a='6 0 81 *'
             evaluatePost(a)
-      
-'Error: Terlalu banyak operand'
+            'Error: Terlalu banyak operand'
 
             a='8 7 + 0 /'
             evaluatePost(a)
-      
-'Error: pembagian dengan nol'
+            'Error: pembagian dengan nol'
 
 
             a='21 2 + */'
             evaluatePost(a)
-      
-'Error: operand terlalu sedikit'
+            'Error: operand terlalu sedikit'
 
             a='610 11 1 + - 5 *'
             evaluatePost(a)
-      
--10.0
+            -10.0
 
 4. parenthesesCheck(str):
 Gunakan fungsi-fungsi yang terdapat pada modul stack untuk pengecekan kurung pada ekspressi matematika, dengan return value berupa nilai True jika ekspressi matematika sudah benar, dan false jika masih terdapat kesalahan. Selain nilai True dan False, tambahkan pesan error jika terjadi kesalahan, antara lain :
@@ -226,16 +222,17 @@ Gunakan fungsi-fungsi yang terdapat pada modul stack untuk pengecekan kurung pad
 Contoh penggunaan fungsi dan output yang dihasilkan, dapat dilihat pada contoh 
 
             parenthesesCheck('{(3+5)*(9-2)}')
-(True, 'tidak ada eror')
+            (True, 'tidak ada eror')
 
             parenthesesCheck('(21/(56+2)')
-(True, 'jumlah kurung buka lebih banyak')
+            (True, 'jumlah kurung buka lebih banyak')
 
             parenthesesCheck('(4-5)/12+7)')
-(True, 'jumlah kurung tutup lebih banyak')
+            (True, 'jumlah kurung tutup lebih banyak')
 
             parenthesesCheck('67*(5+2)/(12-6)')
-(True, 'kurung buka dan kurung tutup tidak cocok')
+            (True, 'kurung buka dan kurung tutup tidak cocok')
+
 
 
 Jawaban Praktikum
