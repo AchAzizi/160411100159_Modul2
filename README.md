@@ -165,6 +165,7 @@ code untuk evaluasi ekspressi postfix
 
 
 Tugas Soal Praktikum
+
 Buatlah suatu modul dengan nama stack, dengan fungsi-fungsi utama yang terdapat dalam modul adalah:
 - stack( ) : inisialisasi stack kosong
 - push(data) : push suatu data ke dalam stack
