@@ -1,4 +1,5 @@
 # Rangkuman_Modul2
+# Stack
 
 Stacks adalah satu struktur data dimana penambahan dan penghapusan data, hanya dapat dilakukan pada satu ujung yang sama,
 atau yang biasa dikenal dengan istilah top. karena samakin jauh posisi data dari top maka data tersebut diindikasikan
