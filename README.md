@@ -199,19 +199,23 @@ Berikut adalah contoh penggunaan fungsi evaluatePost(str):
 
       a='6 0 81 *'
       evaluatePost(a)
+      
 'Error: Terlalu banyak operand'
 
       a='8 7 + 0 /'
       evaluatePost(a)
+      
 'Error: pembagian dengan nol'
 
 
       a='21 2 + */'
       evaluatePost(a)
+      
 'Error: operand terlalu sedikit'
 
       a='610 11 1 + - 5 *'
       evaluatePost(a)
+      
 -10.0
 
 4. parenthesesCheck(str):
